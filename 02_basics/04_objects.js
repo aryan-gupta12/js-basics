@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() // Singleton Object
+const tinderUser = {} // Non-Singleton Object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -74,8 +74,10 @@ console.log(instructor);
 //     "price": "free"
 // }
 
-[
-    {},
-    {},
-    {}
-]
+
+// Json
+// [
+//     {},
+//     {},
+//     {}
+// ]
